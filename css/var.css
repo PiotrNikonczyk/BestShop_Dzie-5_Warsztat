@@ -1,0 +1,12 @@
+
+
+:root {
+    --primaryColor: #08A6E4;
+    --shadowPrimaryColor: rgba(7, 172, 230, .16);
+    --colorRedish: FB3B64;
+    --colorGreen: #55DFB4;
+    --colorGrey: #A5A5A5;
+    --colorLightGrey: #F7F7F7;
+
+    --borderCircle: 50%;
+}
