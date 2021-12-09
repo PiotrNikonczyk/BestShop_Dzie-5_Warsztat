@@ -2,19 +2,23 @@
     width: 1352px;
 }
 
-.uppercase{
+.uppercase {
     text-transform: uppercase;
 }
 
-.circle{
+.circle {
     border-radius: 50%;
 }
 
-.borderBox{
+.borderBox {
     box-sizing: border-box;
 }
 
-nav{
+.whiteBackground {
+    background: var(--colorWhite);
+}
+
+nav {
 
     display: flex;
     justify-content: center;
@@ -22,7 +26,7 @@ nav{
     box-shadow: 0px 3px 6px #00000029;
 }
 
-nav div p.logo{
+nav div p.logo {
     display: flex;
     align-items: center;
     text-align: left;
@@ -50,20 +54,20 @@ nav div ul li a {
     text-decoration: none;
 }
 
-nav div.container{
+nav div.container {
     display: flex;
     justify-content: space-between;
 }
 
 
-nav div ul li a:hover{
+nav div ul li a:hover {
     color: var(--colorBlack);
     border-bottom: 4px solid var(--primaryColor);
     padding: 28px 7px 23px 7px;
 
 }
 
-main div.openingSection{
+main div.openingSection {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,7 +78,7 @@ main div.openingSection{
 
 }
 
-main div.container{
+main div.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,7 +98,7 @@ main div.openingSection div.container p {
     padding: 20px 0px 38px 0px;
 }
 
-main div.openingSection div.container a{
+main div.openingSection div.container a {
     text-align: center;
     font: normal normal bold 16px/22px Open Sans;
     color: var(--colorWhite);
@@ -105,7 +109,6 @@ main div.openingSection div.container a{
     text-decoration: none;
 
 }
-
 
 
 main div.statistic {
@@ -133,7 +136,7 @@ main div.statistic div.container div.main__statistic__banerArea {
 
 }
 
-.statistic__circle{
+.statistic__circle {
     height: 63px;
     width: 63px;
 }
@@ -142,7 +145,7 @@ main div.statistic div.container div.main__statistic__banerArea {
     background: var(--colorRedish);
 }
 
-.main__statistic__baner__circleRed img{
+.main__statistic__baner__circleRed img {
     position: relative;
     left: 30px;
     top: 3px;
@@ -153,7 +156,7 @@ main div.statistic div.container div.main__statistic__banerArea {
     background: var(--primaryColor);
 }
 
-.main__statistic__baner__circleBlue img{
+.main__statistic__baner__circleBlue img {
     position: relative;
     left: 21px;
     top: 14px;
@@ -171,7 +174,6 @@ main div.statistic div.container div.main__statistic__banerArea {
     top: 6px;
 
 }
-
 
 
 .main__statistic__baner h4 {
@@ -206,7 +208,7 @@ main div.statistic div.container div.main__statistic__banerArea {
 }
 
 
- /*------------------------------------- BENEFITS ----------------------------------------*/
+/*------------------------------------- BENEFITS ----------------------------------------*/
 
 main div.benefits {
     background: var(--colorLightGrey);
@@ -217,11 +219,12 @@ main div.benefits {
 
 }
 
-main div.benefits div.container{
+main div.benefits {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 37px;      <!-- baer gap -->
+    gap: 37px;
+<!-- baer gap -->
 }
 
 main div.benefits div.benefits__baner {
@@ -231,35 +234,35 @@ main div.benefits div.benefits__baner {
     /*background: var(--colorWhite);*/
 }
 
-.containerBenefitsBaner{
+html body main div.benefits div.containerBenefitsBaner {
     /*box-sizing: border-box;*/
+    width: 1124px;
 
 }
 
 
-main div.benefits div.container div.benefits__topBaner {
+main div.benefits div.benefits__topBaner {
     display: flex;
-    width: 1124px;
     padding: 91px 118px 38px 35px;
     background: var(--colorWhite);
 
 }
 
-main div.benefits div.container div.benefits__topBaner div.benefits__topBaner__textArea{
+main div.benefits div.benefits__topBaner div.benefits__topBaner__textArea {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 416px;
 }
 
-main div.benefits div.container div.benefits__topBaner div.benefits__topBaner__textArea h3 {
+main div.benefits div.benefits__topBaner div.benefits__topBaner__textArea h3 {
     padding-left: 1px;
     padding-bottom: 30px;
     font: normal normal normal 36px/42px Raleway;
     color: var(--colorBlack);
 }
 
-main div.benefits div.container div.benefits__topBaner div.benefits__topBaner__textArea p {
+main div.benefits div.benefits__topBaner div.benefits__topBaner__textArea p {
     font: normal normal normal 16px/22px Open Sans;
     letter-spacing: 0px;
     color: var(--colorBlack);
@@ -267,7 +270,7 @@ main div.benefits div.container div.benefits__topBaner div.benefits__topBaner__t
 }
 
 
-main div.benefits div.container div.benefits__topBaner div.benefits__topBaner__textArea:after{
+main div.benefits div.benefits__topBaner div.benefits__topBaner__textArea:after {
     content: "";
     display: block;
     height: 0px;
@@ -275,18 +278,18 @@ main div.benefits div.container div.benefits__topBaner div.benefits__topBaner__t
     border-bottom: 4px solid var(--colorRedish);
 }
 
-main div.benefits div.container div.benefits__topBaner img {
+main div.benefits div.benefits__topBaner img {
     height: 219px;
     width: auto;
     padding-top: 22px;
     z-index: 2;
 }
 
-main div.benefits div.container div.benefits__topBaner div.benefits__topBaner__img{
+main div.benefits div.benefits__topBaner div.benefits__topBaner__img {
     display: flex;
 }
 
-main div.benefits div.container div.benefits__topBaner div.benefits__topBaner__img:before{
+main div.benefits div.benefits__topBaner div.benefits__topBaner__img:before {
     content: "";
     width: 180px;
     height: 180px;
@@ -300,14 +303,13 @@ main div.benefits div.container div.benefits__topBaner div.benefits__topBaner__i
 
 }
 
- /*-------------------------- MIDDLE BENEFITS BANER ------------------------------------------*/
+/*------------------------------------------ MIDDLE BENEFITS BANER ------------------------------------------*/
 
 
 main div.benefits div.benefits__middleBaner {
     display: flex;
     background: var(--colorWhite);
     position: relative;
-    width: 1124px;
 }
 
 main div.benefits div.benefits__middleBaner div.benefits__middleBaner__img {
@@ -324,12 +326,12 @@ main div.benefits div.benefits__middleBaner div.benefits__middleBaner__img img {
 
 }
 
-main div.benefits div.benefits__middleBaner div.benefits__middleBaner__img:before{
+main div.benefits div.benefits__middleBaner div.benefits__middleBaner__img:before {
     content: "";
     display: block;
     width: 320px;
     height: 320px;
-    background: var(--primaryColor);
+    background: var(--similarPrimaryColor);
     border-radius: 50%;
     position: absolute;
     left: 70px;
@@ -337,7 +339,7 @@ main div.benefits div.benefits__middleBaner div.benefits__middleBaner__img:befor
     z-index: 0;
 }
 
-main div.benefits div.benefits__middleBaner div.benefits__middleBaner__textArea{
+main div.benefits div.benefits__middleBaner div.benefits__middleBaner__textArea {
     padding: 69px 20px 71px 0px;
     display: flex;
     flex-direction: column;
@@ -353,12 +355,203 @@ main div.benefits div.benefits__middleBaner div.benefits__middleBaner__textArea 
     padding-bottom: 30px;
     font: normal normal normal 16px/22px Open Sans;
     color: var(--colorBlack);
+    position: relative;
 }
 
-main div.benefits div.benefits__middleBaner div.benefits__middleBaner__textArea:after{
+main div.benefits div.benefits__middleBaner div.benefits__middleBaner__textArea:after {
     content: "";
     display: block;
     width: 328px;
     border-bottom: 4px solid var(--primaryColor);
+    position: absolute;
+    bottom: 69px;
 }
 
+/*------------------------------------------ BOTTOM BENEFITS BANER ------------------------------------------*/
+
+main div.benefits div.benefits__bottomBaner {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+
+}
+
+main div.benefits div.benefits__bottomBaner div.benefits__bottomBaner__textArea {
+    width: 554px;
+    height: 230px;
+    padding: 69px 34px 71px 35px;
+
+}
+
+main div.benefits div.benefits__bottomBaner div.benefits__bottomBaner__textArea h3 {
+    font: normal normal normal 36px/42px Raleway;
+    color: var(--colorBlack);
+    padding: 0px 206px 30px 0px;
+}
+
+main div.benefits div.benefits__bottomBaner div.benefits__bottomBaner__textArea div.benefits__bottomBaner__textArea__paragraph {
+    padding: 0px 0px 44px 1px;
+
+}
+
+main div.benefits div.benefits__bottomBaner div.benefits__bottomBaner__textArea p {
+    font: normal normal normal 16px/22px Open Sans;
+    color: var(--colorBlack);
+}
+
+main div.benefits div.benefits__bottomBaner div.benefits__bottomBaner__textArea::after {
+    content: "";
+    display: block;
+    width: 328px;
+    border-bottom: 4px solid var(--primaryColor);
+    position: absolute;
+
+}
+
+main div.benefits div.benefits__bottomBaner img {
+    width: 296px;
+    height: auto;
+    padding: 98px 82px 64px 62px;
+    background: var(--colorGreen);
+}
+
+main div.benefits div.benefits__bottomBaner {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+
+/*------------------------------------------ PRICING ------------------------------------------*/
+
+main div.pricing {
+    background: var(--colorWhite);
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+main div.pricing div.pricing__container {
+    width: 1266px;
+    height: 616px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main div.pricing div.pricing__container h3 {
+    font: normal normal normal 36px/42px Raleway;
+    color: var(--colorBlack);
+    padding-bottom: 71px;
+}
+
+main div.pricing div.pricing__container div.pricing__container__banerArea {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.firstPricingBaner {
+    border: 1px solid var(--colorRedish);
+
+}
+
+.secondPricingBaner {
+    border: 1px solid var(--similarPrimaryColor);
+}
+
+.thirdPricingBaner {
+    border: 1px solid var(--colorGreen);
+
+}
+
+main div.pricing div.pricing__container div.pricing__container__banerArea div.pricing__container__banerArea__baner {
+    width: 372px;
+    height: 461px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 18px;
+
+}
+
+
+main div.pricing div.pricing__container div.pricing__container__banerArea div.pricing__container__banerArea__baner h4 {
+    font: normal normal bold 21px/24px Raleway;
+    color: #13253B;
+    padding-top: 34px;
+    padding-bottom: 14px;
+}
+
+
+main div.pricing div.pricing__container div.pricing__container__banerArea div.pricing__container__banerArea__baner h5 {
+
+    font: normal normal 300 46px Open Sans;
+}
+
+
+main div.pricing div.pricing__container div.pricing__container__banerArea div.pricing__container__banerArea__baner p {
+
+    font: normal normal bold 12px Raleway;
+    color: #13253B;
+    padding-bottom: 50px;
+}
+
+main div.pricing div.pricing__container div.pricing__container__banerArea div.pricing__container__banerArea__baner ul {
+display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+main div.pricing div.pricing__container div.pricing__container__banerArea div.pricing__container__banerArea__baner ul li{
+    font: normal normal normal 14px/41px Open Sans;
+    display: flex;
+
+
+}
+
+
+main div.pricing div.pricing__container div.pricing__container__banerArea div.pricing__container__banerArea__baner ul li:before{
+    content: url("../assets/Ckechmark-1.svg");
+    display: block;
+    position: relative;
+    left: -10px;
+}
+
+main div.pricing div.pricing__container div.pricing__container__banerArea div.pricing__container__banerArea__baner ul li.noCHK:before{
+    content: url("../assets/Close.svg");
+    display: block;
+    position: relative;
+    left: -10px;
+}
+
+main div.pricing div.pricing__container div.pricing__container__banerArea div.pricing__container__banerArea__baner a {
+    padding: 16px 64px;
+    border-radius: 23px;
+    font: normal normal bold 13px Open Sans;
+    color: var(--colorWhite);
+    text-decoration: none;
+    position: relative;
+    bottom: 0;
+    transform: translate(0%, 50%);
+}
+
+.firstPricingBaner a {
+    background: #EB476E;
+}
+
+.secondPricingBaner a {
+    background: var(--similarPrimaryColor);
+}
+.thirdPricingBaner a {
+    background: var(--colorGreen);
+}
+
+.secondPricingBaner{
+    transform: scale(1.088709 , 1.084598);
+}
