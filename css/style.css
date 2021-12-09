@@ -404,7 +404,7 @@ main div.benefits div.benefits__bottomBaner div.benefits__bottomBaner__textArea:
     content: "";
     display: block;
     width: 328px;
-    border-bottom: 4px solid var(--primaryColor);
+    border-bottom: 4px solid var(--colorGreen);
     position: absolute;
 
 }
@@ -526,6 +526,7 @@ main div.pricing div.pricing__container div.pricing__container__banerArea div.pr
 main div.pricing div.pricing__container div.pricing__container__banerArea div.pricing__container__banerArea__baner ul li.noCHK:before{
     content: url("../assets/Close.svg");
     display: block;
+    width: 11px;
     position: relative;
     left: -10px;
 }
@@ -547,6 +548,7 @@ main div.pricing div.pricing__container div.pricing__container__banerArea div.pr
 
 .secondPricingBaner a {
     background: var(--similarPrimaryColor);
+    box-shadow: 5px 10px 14px #07ACE629;
 }
 .thirdPricingBaner a {
     background: var(--colorGreen);
@@ -554,4 +556,85 @@ main div.pricing div.pricing__container div.pricing__container__banerArea div.pr
 
 .secondPricingBaner{
     transform: scale(1.088709 , 1.084598);
+    box-shadow: 5px 10px 27px var(--similarPrimaryColor);
 }
+
+
+/*------------------------------------------ CONTACT ------------------------------------------*/
+
+main div.contact {
+    padding: 155px 0px 59px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+main div.contact div.contactContainer {
+
+    width: 896px;
+    height: 376px;
+    display: flex;
+}
+
+main div.contact div.contactContainer div.contact_area{
+    display: flex;
+    flex-direction: column;
+
+}
+
+main div.contact div.contactContainer div.contact_area h2{
+    font: normal normal normal 49px/57px Raleway;
+    color: var(--colorBlack);
+    padding: 0px 114px 22px 0px;
+
+}
+
+main div.contact div.contactContainer div.contact_area p{
+    font: normal normal normal 16px/22px Open Sans;
+    color: var(--colorBlack);
+    padding-bottom: 42px;
+
+}
+
+main div.contact div.contactContainer div.contact_area div.contactData{
+    display: flex;
+}
+
+main div.contact div.contactContainer div.contact_area div.contactData div.contactMail {
+    padding-left: 37px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font: normal normal 600 16px/22px Open Sans;
+    color: var(--colorGrey);
+
+}
+
+main div.contact div.contactContainer div.contact_area div.contactData div.contactMail:before {
+    content: url("../assets/Mail Icon.svg");
+    display: block;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    left: 0;
+
+}
+
+main div.contact div.contactContainer div.contact_area div.contactData div.contactPhone {
+    padding-left: 57px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font: normal normal 600 16px/22px Open Sans;
+    color: var(--colorGrey);
+}
+
+main div.contact div.contactContainer div.contact_area div.contactData div.contactPhone:before {
+    content: url("../assets/Phone Icon.svg");
+    display: block;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    left: 20px;
+}
+
