@@ -605,9 +605,6 @@ main div.contact div.contactContainer div.contact_area div.contactData div.conta
     display: flex;
     align-items: center;
     position: relative;
-    font: normal normal 600 16px/22px Open Sans;
-    color: var(--colorGrey);
-
 }
 
 main div.contact div.contactContainer div.contact_area div.contactData div.contactMail:before {
@@ -616,7 +613,7 @@ main div.contact div.contactContainer div.contact_area div.contactData div.conta
     width: 27px;
     height: 27px;
     position: absolute;
-    left: 0;
+    left: 0px;
 
 }
 
@@ -625,8 +622,6 @@ main div.contact div.contactContainer div.contact_area div.contactData div.conta
     display: flex;
     align-items: center;
     position: relative;
-    font: normal normal 600 16px/22px Open Sans;
-    color: var(--colorGrey);
 }
 
 main div.contact div.contactContainer div.contact_area div.contactData div.contactPhone:before {
@@ -638,3 +633,64 @@ main div.contact div.contactContainer div.contact_area div.contactData div.conta
     left: 20px;
 }
 
+main div.contact div.contactContainer div.contact_area div.contactData a {
+    text-decoration: none;
+    font: normal normal 600 16px/22px Open Sans;
+    color: var(--colorGrey);
+}
+
+/*------------------------------------------ CONTACT FORM ------------------------------------------*/
+
+
+main form.contactForm {
+    width: 397px;
+    display: flex;
+    flex-direction: column;
+}
+
+main form.contactForm div.InputArea{
+    padding-top: 19px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+main form.contactForm div.Name:before{
+    content: "n a m e";
+    font: normal normal bold 11px/15px Open Sans;
+    color: var(--primaryColor);
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left:  0;
+}
+
+main form.contactForm div.InputArea::after{
+    content: "";
+    width: 100%;
+    border-bottom: 1px solid var(--primaryColor);
+}
+
+
+
+
+main form.contactForm input {
+    border: none;
+    height: 42px;
+}
+
+main form.contactForm div.Email:before{
+    content: "e m a i l";
+    font: normal normal bold 11px/15px Open Sans;
+    color: var(--primaryColor);
+    text-transform: uppercase;
+    position: absolute;
+    top: 42px;
+    left:  0px;
+}
+
+main div.contact form.contactForm div.Email{
+    padding-top: 58px;
+
+}
